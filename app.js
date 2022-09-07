@@ -9,3 +9,9 @@ const connection = mysql.createConnection({
     password: 'root'
 })
 
+inquirer.prompt ([
+{
+    type: 'list',
+    message: 'Choose which you would like'
+}
+])
